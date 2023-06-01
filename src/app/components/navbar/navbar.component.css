@@ -1,0 +1,156 @@
+.navbar-navbar {
+    gap: 10px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 98px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  
+  .navbar-frame2 {
+    gap: 70px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    padding: 7px 80px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+    background-color: var(--dl-color-default-primarycolor);
+  }
+  
+  .navbar-sportifylogo1 {
+    width: 176px;
+    height: 36px;
+  }
+  
+  .navbar-group1 {
+    position: relative;
+    width: 573px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden; /* Ensure content stays within the element */
+  }
+  
+  .navbar-text86 {
+    top: 8px;
+    left: 22px;
+    color: var(--dl-color-default-graydark);
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: 24px;
+  }
+  
+  .navbar-buttons {
+    gap: 10px;
+    top: 4px;
+    left: 456.5px;
+    display: flex;
+    padding: 8px 32px 8px 16px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15000000596046448);
+    align-items: flex-start;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  
+  .navbar-buttons:hover {
+    /* Specify the new style properties for hover state */
+    /* For example, change the background color */
+    background-color: #fc5574;
+  }
+  
+  
+  .navbar-searchfill {
+    width: 16px;
+    height: 16px;
+  }
+  .navbar-text88 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
+  .navbar-frame7 {
+    width: 392px;
+    height: 84px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .navbar-frame32 {
+    gap: 10px;
+    display: flex;
+    padding: 26px 20px;
+    overflow: hidden;
+    align-items: flex-start;
+  }
+  
+  .navbar-text90 {
+    color: white;
+    height: auto;
+    text-align: left;
+    line-height: 32px;
+    transition: color 0.3s;
+  }
+  
+  
+  .navbar-text90:hover {
+    color: #fc5574; /* Change the text color on hover */
+    /* Add additional styles for hover state if needed */
+  }
+  
+  .navbar-frame33 {
+    gap: 10px;
+    display: flex;
+    padding: 26px 20px;
+    overflow: hidden;
+    align-items: flex-start;
+  }
+  
+  .navbar-text92 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    text-align: left;
+    line-height: 32px;
+    transition: color 0.3s; 
+  }
+  
+  .navbar-text92:hover {
+    color: #fc5574;
+  }
+  
+  
+  .navbar-frame51 {
+    gap: 10px;
+    display: flex;
+    padding: 26px 0 26px 20px;
+    overflow: hidden;
+    align-items: flex-start;
+  }
+  .navbar-text94 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    text-align: left;
+    line-height: 32px;
+    transition: color 0.3s; /* Add a transition for a smooth effect */
+  }
+  
+  .navbar-text94:hover {
+    color: #fc5574; /* Change the text color on hover */
+    /* Add additional styles for hover state if needed */
+  }

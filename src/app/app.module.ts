@@ -9,6 +9,8 @@ import { FootballfieldsModule } from './pages/footballfields/footballfields.modu
 import { FieldpageModule } from './pages/fieldpage/fieldpage.module';
 import { ProfilepageModule } from './pages/profilepage/profilepage.module';
 import { ReservationspageModule } from './pages/reservationspage/reservationspage.module';
+import { NavbarComponent } from './components/navbar/navbar.component';
+
 
 
 const routes: Routes = [
