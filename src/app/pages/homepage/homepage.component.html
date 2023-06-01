@@ -53,79 +53,35 @@
     <span class="homepage-text24"><span>Sports</span></span>
     <div class="homepage-frame8">
       <span class="homepage-text26"><span>Trending</span></span>
-      <a routerLink="/fieldpage" class="homepage-cardfullcard">
-        <img
-          alt="image1914"
-          src="/assets/playground_assets/image1914-94hq-200h.png"
-          class="homepage-image"
-        />
-        <div class="homepage-data">
-          <div class="homepage-titlerow">
-            <span class="homepage-text28 HeaderH4">
-              <span class="homepage-text29">
-                FIS football field,
-                <span [innerHTML]="rawm99n"></span>
-              </span>
-              <span>Sarajevo</span>
-            </span>
-            <span class="homepage-text31 HeaderH4"><span>60 BAM</span></span>
-          </div>
-          <span class="homepage-text33 BodyDefault">
-            <span>
-              Best place for after work football with friends and colleagues
-            </span>
-          </span>
-        </div>
+      <a routerLink="/fieldpage">
+        <app-fieldcard
+          [imageAlt]="'image1914'"
+          [imageSrc]="'/assets/playground_assets/image1914-94hq-200h.png'"
+          [titlePrefix]="'FIS football field,'"
+          [location]="'Sarajevo'"
+          [price]="'60 BAM'"
+          [description]="'Best place for after work football with friends and colleagues'"
+          style="--fieldcard-top: 89px; --fieldcard-left: 80px; --fieldcard-width: 1279px;"
+        ></app-fieldcard>
       </a>      
-      <div class="homepage-cardfullcard1">
-        <img
-          alt="image1914"
-          src="/assets/playground_assets/image1914-mcaf-200h.png"
-          class="homepage-image1"
-        />
-        <div class="homepage-data1">
-          <div class="homepage-titlerow1">
-            <span class="homepage-text35 HeaderH4">
-              <span class="homepage-text36">
-                Una tennis courts,
-                <span [innerHTML]="raw1w7e"></span>
-              </span>
-              <span>Sarajevo</span>
-            </span>
-            <span class="homepage-text38 HeaderH4"><span>35 BAM</span></span>
-          </div>
-          <span class="homepage-text40 BodyDefault">
-            <span>
-              Best place for after work tennis with friends and colleagues
-            </span>
-          </span>
-        </div>
-      </div>
-      <div class="homepage-cardfullcard2">
-        <img
-          alt="image1914"
-          src="/assets/playground_assets/image1914-qxrp-200h.png"
-          class="homepage-image2"
-        />
-        <div class="homepage-data2">
-          <div class="homepage-titlerow2">
-            <span class="homepage-text42 HeaderH4">
-              <span class="homepage-text43">
-                Basketball court Grbavica,
-                <span [innerHTML]="raw56qa"></span>
-              </span>
-              <span>Sarajevo</span>
-            </span>
-            <span class="homepage-text45 HeaderH4"><span>55 BAM</span></span>
-          </div>
-          <span class="homepage-text47 BodyDefault">
-            <span>
-              Best place for after work basketball game with friends and
-              colleagues
-            </span>
-          </span>
-        </div>
-      </div>
+<app-fieldcard
+[imageAlt]="'image1914'"
+[imageSrc]="'/assets/playground_assets/image1914-mcaf-200h.png'"
+[titlePrefix]="'Una tennis courts,'"
+[location]="'Sarajevo'"
+[price]="'35 BAM'"
+[description]="'Best place for after work tennis with friends and colleagues'"
+style="--fieldcard-top: 550px; --fieldcard-left: 80px;--fieldcard-width: 1279px;"
+></app-fieldcard>
+<app-fieldcard
+[imageAlt]="'image1914'"
+[imageSrc]="'/assets/playground_assets/image1914-qxrp-200h.png'"
+[titlePrefix]="'Basketball court Grbavica,'"
+[location]="'Sarajevo'"
+[price]="'55 BAM'"
+[description]="'Best place for after work basketball game with friends and colleagues'"
+style="--fieldcard-top: 1009px; --fieldcard-left: 80px;--fieldcard-width: 1279px;"
+></app-fieldcard>
     </div>
     <app-footer style="--footer-top: 2301px;"></app-footer>
     <app-comment style="--comment-top: 2035px; --comment-left: 80px;"></app-comment>

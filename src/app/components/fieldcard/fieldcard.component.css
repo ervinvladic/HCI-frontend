@@ -1,0 +1,69 @@
+.homepage-cardfullcard1 {
+    top: var(--fieldcard-top);
+    left: var(--fieldcard-left);
+    width: var(--fieldcard-width);
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    flex-grow: 1;
+    align-self: stretch;
+    box-shadow: 0px 2px 4px 0px rgba(27, 4, 76, 0.10000000149011612) ;
+    align-items: flex-start;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: var(--dl-color-default-truewhite);
+  }
+  
+  .homepage-image1 {
+    width: auto;
+    height: auto;
+    flex-grow: 1;
+    align-self: stretch;
+  }
+  
+  .homepage-data1 {
+    gap: 4px;
+    display: flex;
+    padding: 16px 24px;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: var(--dl-color-default-truewhite);
+  }
+  
+  .homepage-titlerow1 {
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  
+  .homepage-text35 {
+    color: #fc5574;
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: normal;
+    font-weight: bold; 
+  }
+  .homepage-text36 {
+    color: var(--dl-color-grey-600);
+    font-weight: bold; /* Add the bold font weight */
+  }
+  
+  .homepage-text38 {
+    color: var(--dl-color-default-pink);
+    width: 72px;
+    height: auto;
+    text-align: right;
+    line-height: normal;
+    font-weight: bold; /* Add the bold font weight */
+  }
+  
+  .homepage-text40 {
+    color: var(--dl-color-grey-400);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
