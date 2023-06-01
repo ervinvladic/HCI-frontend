@@ -1,4 +1,4 @@
-.homepage-footer {
+.footer-footer {
     gap: 477px;
     top: var(--footer-top);
     left: 0px;
@@ -13,19 +13,19 @@
     background-color: rgba(0, 0, 0, 1);
   }
   
-  .homepage-text49 {
+  .footer-text49 {
     color: rgba(242, 242, 242, 1);
     height: auto;
     text-align: left;
     line-height: 32px;
   }
   
-  .homepage-frame9 {
+  .footer-frame9 {
     display: flex;
     align-items: flex-start;
   }
   
-  .homepage-frame3 {
+  .footer-frame3 {
     gap: 10px;
     display: flex;
     padding: 26px 20px;
@@ -33,7 +33,7 @@
     align-items: flex-start;
   }
   
-  .homepage-text51 {
+  .footer-text51 {
     color: rgba(255, 255, 255, 1);
     height: auto;
     text-align: left;
@@ -41,12 +41,12 @@
     transition: color 0.3s; /* Add a transition for a smooth effect */
   }
   
-  .homepage-text51:hover {
+  .footer-text51:hover {
     color: #fc5574; /* Change the text color on hover */
     /* Add additional styles for hover state if needed */
   }
   
-  .homepage-frame31 {
+  .footer-frame31 {
     gap: 10px;
     display: flex;
     padding: 26px 20px;
@@ -54,7 +54,7 @@
     align-items: flex-start;
   }
   
-  .homepage-text53 {
+  .footer-text53 {
     color: rgba(255, 255, 255, 1);
     height: auto;
     text-align: left;
@@ -62,12 +62,12 @@
     transition: color 0.3s; /* Add a transition for a smooth effect */
   }
   
-  .homepage-text53:hover {
+  .footer-text53:hover {
     color: #fc5574; /* Change the text color on hover */
     /* Add additional styles for hover state if needed */
   }
   
-  .homepage-frame5 {
+  .footer-frame5 {
     gap: 10px;
     display: flex;
     padding: 26px 0 26px 20px;
@@ -75,7 +75,7 @@
     align-items: flex-start;
   }
   
-  .homepage-text55 {
+  .footer-text55 {
     color: rgba(255, 255, 255, 1);
     height: auto;
     text-align: left;
@@ -84,7 +84,7 @@
   }
   
   
-  .homepage-frame6 {
+  .footer-frame6 {
     gap: 10px;
     display: flex;
     padding: 26px 0 26px 20px;
@@ -92,7 +92,7 @@
     align-items: flex-start;
   }
 
-  .homepage-text57 {
+  .footer-text57 {
     color: rgba(255, 255, 255, 1);
     height: auto;
     text-align: left;

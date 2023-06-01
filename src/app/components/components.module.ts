@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { CommentComponent } from './comment/comment.component';
 
 const routes = [
   // Define your routes here
@@ -29,12 +30,11 @@ const routes = [
 ];
 
 @NgModule({
-  declarations: [NavbarComponent, FooterComponent],
+  declarations: [NavbarComponent, FooterComponent, CommentComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(routes) // Add RouterModule.forChild with the routes
   ],
-  exports: [NavbarComponent, FooterComponent], // Include FooterComponent in exports
+  exports: [NavbarComponent, FooterComponent, CommentComponent], // Include CommentComponent in exports
 })
 export class ComponentsModule {}
-

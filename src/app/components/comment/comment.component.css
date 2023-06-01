@@ -1,0 +1,176 @@
+.comment-usercomments {
+    gap: 16px;
+    top: var(--comment-top);
+    left: var(--comment-left);
+    width: 411px;
+    display: flex;
+    padding: 16px;
+    position: absolute;
+    flex-grow: 1;
+    align-items: flex-start;
+  }
+  
+  .comment-avatar {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .comment-text59 {
+    gap: 12px;
+    width: 314.6666564941406px;
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  
+  .comment-userdata {
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .comment-text60 {
+    color: var(--dl-color-grey-600);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
+  
+  .comment-text62 {
+    color: rgba(109, 115, 145, 1);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
+  
+  .comment-text63 {
+    color: var(--dl-color-grey-600);
+  }
+  
+  .comment-text64 {
+    color: rgba(161, 175, 204, 1);
+  }
+  
+  .comment-ratingstarrow {
+    display: flex;
+    padding: 8px 0 0 0;
+    align-items: flex-start;
+  }
+  
+  .comment-frame24starfilled {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
+  
+  .comment-star1 {
+    top: 3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  
+  .comment-star101 {
+    top: 3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  
+  .comment-star102 {
+    top: 3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  
+  .comment-star103 {
+    top: 3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  
+  .comment-star104 {
+    top: 3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  
+  .comment-text86 {
+    top: 8px;
+    left: 22px;
+    color: var(--dl-color-default-graydark);
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: 24px;
+  }
+
+  .comment-frame24starfilled02 {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
+
+  .comment-frame24starfilled03 {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
+
+  .comment-frame24starfilled04 {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
+
+  .comment-frame24starfilled01 {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
+
+  .comment-text66 {
+    color: var(--dl-color-grey-900);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: normal;
+  }
