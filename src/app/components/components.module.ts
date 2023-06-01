@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { CommentComponent } from './comment/comment.component';
+import { SportCategoryComponent } from './sport-category/sport-category.component';
 
 const routes = [
   // Define your routes here
@@ -30,11 +31,11 @@ const routes = [
 ];
 
 @NgModule({
-  declarations: [NavbarComponent, FooterComponent, CommentComponent],
+  declarations: [NavbarComponent, FooterComponent, CommentComponent, SportCategoryComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(routes) // Add RouterModule.forChild with the routes
   ],
-  exports: [NavbarComponent, FooterComponent, CommentComponent], // Include CommentComponent in exports
+  exports: [NavbarComponent, FooterComponent, CommentComponent, SportCategoryComponent], // Include SportCategoryComponent in exports
 })
 export class ComponentsModule {}

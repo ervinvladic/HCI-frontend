@@ -5,78 +5,51 @@
       src="/assets/playground_assets/rectangle601561-jh4b-500h.png"
       class="homepage-rectangle60"
     />
-    <a routerLink="/footballfields" class="homepage-sportcategories">
-      <div class="homepage-frame1">
-        <div class="homepage-rialarmfill"></div>
-        <img
-          alt="footballfillI124"
-          src="/assets/playground_assets/footballfilli124-lda.svg"
-          class="homepage-footballfill"
-        />
-      </div>
-      <span class="homepage-text">Football</span>
-      <span class="homepage-text02">10 fields</span>
+    <a [routerLink]="'/footballfields'">
+      <app-sport-category
+        [alt]="'footballfillI124'"
+        [imageSrc]="'/assets/playground_assets/footballfilli124-lda.svg'"
+        [title]="'Football'"
+        [courtCount]="'10 fields'"
+        style="--category-left: 79px;"
+      ></app-sport-category>
     </a>    
-    <div class="homepage-sportcategories1">
-      <div class="homepage-frame11">
-        <div class="homepage-rialarmfill1"></div>
-        <img
-          alt="basketballfillI128"
-          src="/assets/playground_assets/basketballfilli128-zmkq.svg"
-          class="homepage-basketballfill"
-        />
-      </div>
-      <span class="homepage-text04"><span>Basketball</span></span>
-      <span class="homepage-text06"><span>8 courts</span></span>
-    </div>
-    <div class="homepage-sportcategories2">
-      <div class="homepage-frame12">
-        <div class="homepage-rialarmfill2"></div>
-        <img
-          alt="pingpongfillI128"
-          src="/assets/playground_assets/pingpongfilli128-6604.svg"
-          class="homepage-pingpongfill"
-        />
-      </div>
-      <span class="homepage-text08"><span>Table tennis</span></span>
-      <span class="homepage-text10"><span>5 places</span></span>
-    </div>
-    <div class="homepage-sportcategories3">
-      <div class="homepage-frame13">
-        <div class="homepage-rialarmfill3"></div>
-        <img
-          alt="billiardsfillI128"
-          src="/assets/playground_assets/billiardsfilli128-7b7d.svg"
-          class="homepage-billiardsfill"
-        />
-      </div>
-      <span class="homepage-text12"><span>Billiards</span></span>
-      <span class="homepage-text14"><span>6 places</span></span>
-    </div>
-    <div class="homepage-sportcategories4">
-      <div class="homepage-frame14">
-        <div class="homepage-rialarmfill4"></div>
-        <img
-          alt="runlineI128"
-          src="/assets/playground_assets/runlinei128-eyo.svg"
-          class="homepage-runline"
-        />
-      </div>
-      <span class="homepage-text16"><span>Gym</span></span>
-      <span class="homepage-text18"><span>10 places</span></span>
-    </div>
-    <div class="homepage-sportcategories5">
-      <div class="homepage-frame15">
-        <div class="homepage-rialarmfill5"></div>
-        <img
-          alt="more2fillI128"
-          src="/assets/playground_assets/more2filli128-tbem.svg"
-          class="homepage-more2fill"
-        />
-      </div>
-      <span class="homepage-text20"><span>Other</span></span>
-      <span class="homepage-text22"><span>20 places</span></span>
-    </div>
+   <app-sport-category
+      [alt]="'basketballfillI128'"
+      [imageSrc]="'/assets/playground_assets/basketballfilli128-zmkq.svg'"
+      [title]="'Basketball'"
+      [courtCount]="'8 fields'"
+      style="--category-left: 297px;"
+   ></app-sport-category>
+
+    <app-sport-category
+      [alt]="'pingpongfillI128'"
+      [imageSrc]="'/assets/playground_assets/pingpongfilli128-6604.svg'"
+      [title]="'Table tennis'"
+      [courtCount]="'5 places'"
+      style="--category-left: 513px;"
+></app-sport-category>
+    <app-sport-category
+      [alt]="'billiardsfillI128'"
+      [imageSrc]="'/assets/playground_assets/billiardsfilli128-7b7d.svg'"
+      [title]="'Billiards'"
+      [courtCount]="'6 places'"
+      style="--category-left: 731px;"
+></app-sport-category>
+<app-sport-category
+      [alt]="'runlineI128'"
+      [imageSrc]="'/assets/playground_assets/runlinei128-eyo.svg'"
+      [title]="'Gym'"
+      [courtCount]="'10 places'"
+      style="--category-left: 949px;"
+></app-sport-category>
+<app-sport-category
+      [alt]="'more2fillI128'"
+      [imageSrc]="'/assets/playground_assets/more2filli128-tbem.svg'"
+      [title]="'Other'"
+      [courtCount]="'20 places'"
+      style="--category-left: 1165px;"
+></app-sport-category>
     <span class="homepage-text24"><span>Sports</span></span>
     <div class="homepage-frame8">
       <span class="homepage-text26"><span>Trending</span></span>

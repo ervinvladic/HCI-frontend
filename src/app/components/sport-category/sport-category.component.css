@@ -1,0 +1,81 @@
+.sportcategory-sportcategories1 {
+    gap: 25px;
+    top: 202px;
+    left: var(--category-left); 
+    width: 196px;
+    display: flex;
+    padding: 24px;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: rgba(255, 171, 197, 1);
+    transition: background-color 0.3s; /* Add a transition for a smooth effect */
+  }
+
+  .sportcategory-sportcategories1:hover {
+    background-color: rgba(252, 85, 116, 1); /* Change the background color on hover */
+  }
+  .sportcategory-frame11 {
+    gap: 10px;
+    width: 148px;
+    height: 96px;
+    display: flex;
+    padding: 16px 42px;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: var(--dl-color-default-white);
+  }
+  
+  .sportcategory-rialarmfill1 {
+    gap: 10px;
+    top: 18px;
+    left: 42px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+  }
+  
+  .sportcategory-text04 {
+    color: var(--dl-color-default-primarycolor);
+    width: 149px;
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
+  .sportcategory-text06 {
+    color: var(--dl-color-default-primarycolor);
+    width: 149px;
+    height: auto;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .sportcategory-fill {
+    top: 18px;
+    left: 42px;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+  }
