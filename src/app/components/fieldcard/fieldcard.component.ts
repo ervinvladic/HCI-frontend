@@ -13,7 +13,5 @@ export class FieldCardComponent {
   @Input() price: string;
   @Input() description: string;
 
-  raw1w7e: string = ' ';
-
   constructor() { }
 }

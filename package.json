@@ -1,6 +1,6 @@
 {
   "name": "sportify",
-  "author": "teleportHQ",
+  "author": "sportify",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,7 +19,7 @@
     "@angular/router": "^14.0.0",
     "core-js": "~3.0.1",
     "rxjs": "~6.6.0",
-    "tslib": "^2.1.0",
+    "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {

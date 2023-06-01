@@ -8,12 +8,7 @@ import { NavbarComponent } from '../../components/navbar/navbar.component';
   styleUrls: ['footballfields.component.css'],
 })
 export class Footballfields {
-  rawq5x2: string = ' '
-  rawmolo: string = ' '
-  rawp9c5: string = ' '
-  raw4z4z: string = ' '
-  rawnf7q: string = ' '
   constructor(private title: Title) {
-    this.title.setTitle('exported project')
+    this.title.setTitle('Football fields')
   }
 }

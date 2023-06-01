@@ -91,10 +91,6 @@
 .list-item {
   display: list-item;
 }
-.teleport-show {
-  display: flex !important;
-  transform: none !important;
-}
 .Content {
   font-size: 16px;
   font-family: Inter;

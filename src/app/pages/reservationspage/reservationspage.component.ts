@@ -9,6 +9,6 @@ import { NavbarComponent } from '../../components/navbar/navbar.component';
 })
 export class Reservationspage {
   constructor(private title: Title) {
-    this.title.setTitle('exported project')
+    this.title.setTitle('Reservations')
   }
 }
