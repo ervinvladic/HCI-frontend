@@ -1,0 +1,1426 @@
+:host { 
+  display: contents; 
+}
+.homepage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.homepage-homepage {
+  width: 100%;
+  height: 2429px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.homepage-rectangle60 {
+  top: 98px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  height: 435px;
+  position: absolute;
+}
+.homepage-sportcategories {
+  gap: 25px;
+  top: 202px;
+  left: 79px;
+  width: 196px;
+  display: flex;
+  padding: 24px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: rgba(255, 171, 197, 1);
+  transition: background-color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-sportcategories:hover {
+  background-color: rgba(252, 85, 116, 1); /* Change the background color on hover */
+}
+
+.homepage-frame1 {
+  gap: 10px;
+  width: 148px;
+  height: 96px;
+  display: flex;
+  padding: 16px 42px;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: var(--dl-color-default-white);
+}
+.homepage-rialarmfill {
+  gap: 10px;
+  top: 18px;
+  left: 42px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.homepage-footballfill {
+  top: 18px;
+  left: 42px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+}
+.homepage-text {
+  color: var(--dl-color-default-primarycolor);
+  width: 149px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+} 
+
+.homepage-text02 {
+  color: var(--dl-color-default-primarycolor);
+  width: 149px;
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-sportcategories1 {
+  gap: 25px;
+  top: 202px;
+  left: 297px;
+  width: 196px;
+  display: flex;
+  padding: 24px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: rgba(255, 171, 197, 1);
+  transition: background-color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-sportcategories1:hover {
+  background-color: rgba(252, 85, 116, 1); /* Change the background color on hover */
+}
+
+.homepage-frame11 {
+  gap: 10px;
+  width: 148px;
+  height: 96px;
+  display: flex;
+  padding: 16px 42px;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: var(--dl-color-default-white);
+}
+.homepage-rialarmfill1 {
+  gap: 10px;
+  top: 18px;
+  left: 42px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.homepage-basketballfill {
+  top: 18px;
+  left: 42px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+}
+.homepage-text04 {
+  color: var(--dl-color-default-primarycolor);
+  width: 149px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-text06 {
+  color: var(--dl-color-default-primarycolor);
+  width: 149px;
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-sportcategories2 {
+  gap: 25px;
+  top: 202px;
+  left: 513px;
+  width: 196px;
+  display: flex;
+  padding: 24px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: rgba(255, 171, 197, 1);
+  transition: background-color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-sportcategories2:hover {
+  background-color: rgba(252, 85, 116, 1); /* Change the background color on hover */
+}
+
+.homepage-frame12 {
+  gap: 10px;
+  width: 148px;
+  height: 96px;
+  display: flex;
+  padding: 16px 42px;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: var(--dl-color-default-white);
+}
+.homepage-rialarmfill2 {
+  gap: 10px;
+  top: 18px;
+  left: 42px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.homepage-pingpongfill {
+  top: 18px;
+  left: 42px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+}
+.homepage-text08 {
+  color: var(--dl-color-default-primarycolor);
+  width: 149px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-text10 {
+  color: var(--dl-color-default-primarycolor);
+  width: 149px;
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-sportcategories3 {
+  gap: 25px;
+  top: 201px;
+  left: 731px;
+  width: 196px;
+  display: flex;
+  padding: 24px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: rgba(255, 171, 197, 1);
+  transition: background-color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-sportcategories3:hover {
+  background-color: rgba(252, 85, 116, 1); /* Change the background color on hover */
+}
+.homepage-frame13 {
+  gap: 10px;
+  width: 148px;
+  height: 96px;
+  display: flex;
+  padding: 16px 42px;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: var(--dl-color-default-white);
+}
+.homepage-rialarmfill3 {
+  gap: 10px;
+  top: 18px;
+  left: 42px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.homepage-billiardsfill {
+  top: 18px;
+  left: 42px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+}
+.homepage-text12 {
+  color: var(--dl-color-default-primarycolor);
+  width: 149px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-text14 {
+  color: var(--dl-color-default-primarycolor);
+  width: 149px;
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-sportcategories4 {
+  gap: 25px;
+  top: 201px;
+  left: 949px;
+  width: 196px;
+  display: flex;
+  padding: 24px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: rgba(255, 171, 197, 1);
+  transition: background-color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-sportcategories4:hover {
+  background-color: rgba(252, 85, 116, 1); /* Change the background color on hover */
+}
+
+.homepage-frame14 {
+  gap: 10px;
+  width: 148px;
+  height: 96px;
+  display: flex;
+  padding: 16px 42px;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: var(--dl-color-default-white);
+}
+.homepage-rialarmfill4 {
+  gap: 10px;
+  top: 18px;
+  left: 42px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.homepage-runline {
+  top: 18px;
+  left: 42px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+}
+.homepage-text16 {
+  color: var(--dl-color-default-primarycolor);
+  width: 149px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-text18 {
+  color: var(--dl-color-default-primarycolor);
+  width: 149px;
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-sportcategories5 {
+  gap: 25px;
+  top: 202px;
+  left: 1165px;
+  width: 196px;
+  display: flex;
+  padding: 24px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: rgba(255, 171, 197, 1);
+  transition: background-color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-sportcategories5:hover {
+  background-color: rgba(252, 85, 116, 1); /* Change the background color on hover */
+}
+
+.homepage-frame15 {
+  gap: 10px;
+  width: 148px;
+  height: 96px;
+  display: flex;
+  padding: 16px 42px;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: var(--dl-color-default-white);
+}
+.homepage-rialarmfill5 {
+  gap: 10px;
+  top: 18px;
+  left: 42px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+}
+.homepage-more2fill {
+  top: 18px;
+  left: 42px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+}
+.homepage-text20 {
+  color: var(--dl-color-default-primarycolor);
+  width: 149px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-text22 {
+  color: var(--dl-color-default-primarycolor);
+  width: 149px;
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-text24 {
+  top: 135px;
+  left: 37px;
+  color: var(--dl-color-default-primarycolor);
+  width: 197px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 40px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-frame8 {
+  top: 533px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  height: 1462px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: var(--dl-color-default-greylight);
+}
+.homepage-text26 {
+  top: 25px;
+  left: 55px;
+  color: var(--dl-color-default-primarycolor);
+  width: 197px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 40px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-cardfullcard {
+  top: 89px;
+  left: 80px;
+  width: 1279px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  flex-grow: 1;
+  align-self: stretch;
+  box-shadow: 0px 2px 4px 0px rgba(27, 4, 76, 0.10000000149011612) ;
+  align-items: flex-start;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: var(--dl-color-default-truewhite);
+}
+.homepage-image {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+}
+.homepage-data {
+  gap: 4px;
+  display: flex;
+  padding: 16px 24px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-default-truewhite);
+}
+.homepage-titlerow {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.homepage-text28 {
+  color: #fc5574;
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: normal;
+  font-weight: bold; 
+}
+.homepage-text29 {
+  color: var(--dl-color-grey-600);
+  font-weight: bold; 
+}
+.homepage-text31 {
+  color: var(--dl-color-default-pink);
+  width: 72px;
+  height: auto;
+  text-align: right;
+  line-height: normal;
+  font-weight: bold; 
+}
+.homepage-text33 {
+  color: var(--dl-color-grey-400);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.homepage-cardfullcard1 {
+  top: 550px;
+  left: 80px;
+  width: 1279px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  flex-grow: 1;
+  align-self: stretch;
+  box-shadow: 0px 2px 4px 0px rgba(27, 4, 76, 0.10000000149011612) ;
+  align-items: flex-start;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: var(--dl-color-default-truewhite);
+}
+.homepage-image1 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+}
+.homepage-data1 {
+  gap: 4px;
+  display: flex;
+  padding: 16px 24px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-default-truewhite);
+}
+.homepage-titlerow1 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.homepage-text35 {
+  color: #fc5574;
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: normal;
+  font-weight: bold; 
+}
+.homepage-text36 {
+  color: var(--dl-color-grey-600);
+  font-weight: bold; /* Add the bold font weight */
+}
+.homepage-text38 {
+  color: var(--dl-color-default-pink);
+  width: 72px;
+  height: auto;
+  text-align: right;
+  line-height: normal;
+  font-weight: bold; /* Add the bold font weight */
+}
+.homepage-text40 {
+  color: var(--dl-color-grey-400);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.homepage-cardfullcard2 {
+  top: 1009px;
+  left: 80px;
+  width: 1279px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  flex-grow: 1;
+  align-self: stretch;
+  box-shadow: 0px 2px 4px 0px rgba(27, 4, 76, 0.10000000149011612) ;
+  align-items: flex-start;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: var(--dl-color-default-truewhite);
+}
+.homepage-image2 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+}
+.homepage-data2 {
+  gap: 4px;
+  display: flex;
+  padding: 16px 24px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-default-truewhite);
+}
+.homepage-titlerow2 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.homepage-text42 {
+  color: #fc5574;
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: normal;
+  font-weight: bold; 
+}
+
+.homepage-text43 {
+  color: #6E7491;
+  font-weight: bold; 
+}
+.homepage-text45 {
+  color: var(--dl-color-default-pink);
+  width: 72px;
+  height: auto;
+  text-align: right;
+  line-height: normal;
+  font-weight: bold; 
+}
+.homepage-text47 {
+  color: var(--dl-color-grey-400);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.homepage-footer {
+  gap: 477px;
+  top: 2301px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  padding: 22px 80px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 1);
+}
+.homepage-text49 {
+  color: rgba(242, 242, 242, 1);
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+}
+.homepage-frame9 {
+  display: flex;
+  align-items: flex-start;
+}
+.homepage-frame3 {
+  gap: 10px;
+  display: flex;
+  padding: 26px 20px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.homepage-text51 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+  transition: color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-text51:hover {
+  color: #fc5574; /* Change the text color on hover */
+  /* Add additional styles for hover state if needed */
+}
+
+.homepage-frame31 {
+  gap: 10px;
+  display: flex;
+  padding: 26px 20px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.homepage-text53 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+  transition: color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-text53:hover {
+  color: #fc5574; /* Change the text color on hover */
+  /* Add additional styles for hover state if needed */
+}
+
+.homepage-frame5 {
+  gap: 10px;
+  display: flex;
+  padding: 26px 0 26px 20px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.homepage-text55 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+  transition: color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-text55:hover {
+  color: #fc5574; /* Change the text color on hover */
+  /* Add additional styles for hover state if needed */
+}
+
+.homepage-frame6 {
+  gap: 10px;
+  display: flex;
+  padding: 26px 0 26px 20px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.homepage-text57 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+  transition: color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-text57:hover {
+  color: #fc5574; /* Change the text color on hover */
+  /* Add additional styles for hover state if needed */
+}
+
+.homepage-usercomments {
+  gap: 16px;
+  top: 2035px;
+  left: 80px;
+  width: 411px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+.homepage-avatar {
+  width: 48px;
+  height: 48px;
+}
+.homepage-text59 {
+  gap: 12px;
+  width: 314.6666564941406px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.homepage-userdata {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.homepage-text60 {
+  color: var(--dl-color-grey-600);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.homepage-text62 {
+  color: rgba(109, 115, 145, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.homepage-text63 {
+  color: var(--dl-color-grey-600);
+}
+.homepage-text64 {
+  color: rgba(161, 175, 204, 1);
+}
+.homepage-ratingstarrow {
+  display: flex;
+  padding: 8px 0 0 0;
+  align-items: flex-start;
+}
+.homepage-frame24starfilled {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star1 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-frame24starfilled01 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star101 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-frame24starfilled02 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star102 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-frame24starfilled03 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star103 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-frame24starfilled04 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star104 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-text66 {
+  color: var(--dl-color-grey-900);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.homepage-usercomments1 {
+  gap: 16px;
+  top: 2035px;
+  left: 951.333251953125px;
+  width: 411px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+.homepage-avatar1 {
+  width: 48px;
+  height: 48px;
+}
+.homepage-text68 {
+  gap: 12px;
+  width: 314.6666564941406px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.homepage-userdata1 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.homepage-text69 {
+  color: var(--dl-color-grey-600);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.homepage-text71 {
+  color: rgba(109, 115, 145, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.homepage-text72 {
+  color: var(--dl-color-grey-600);
+}
+.homepage-text73 {
+  color: rgba(161, 175, 204, 1);
+}
+.homepage-ratingstarrow1 {
+  display: flex;
+  padding: 8px 0 0 0;
+  align-items: flex-start;
+}
+.homepage-frame24starfilled05 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star105 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-frame24starfilled06 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star106 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-frame24starfilled07 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star107 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-frame24starfilled08 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star108 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-frame24starfilled09 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star109 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-text75 {
+  color: var(--dl-color-grey-900);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.homepage-usercomments2 {
+  gap: 16px;
+  top: 2035px;
+  left: 515.6666259765625px;
+  width: 411px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+.homepage-avatar2 {
+  width: 48px;
+  height: 48px;
+}
+.homepage-text77 {
+  gap: 12px;
+  width: 314.6666564941406px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.homepage-userdata2 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.homepage-text78 {
+  color: var(--dl-color-grey-600);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.homepage-text80 {
+  color: rgba(109, 115, 145, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.homepage-text81 {
+  color: var(--dl-color-grey-600);
+}
+.homepage-text82 {
+  color: rgba(161, 175, 204, 1);
+}
+.homepage-ratingstarrow2 {
+  display: flex;
+  padding: 8px 0 0 0;
+  align-items: flex-start;
+}
+.homepage-frame24starfilled10 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star110 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-frame24starfilled11 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star111 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-frame24starfilled12 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star112 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-frame24starfilled13 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star113 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-frame24starfilled14 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.homepage-star114 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.homepage-text84 {
+  color: var(--dl-color-grey-900);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+}
+.homepage-navbar {
+  gap: 10px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 98px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.homepage-frame2 {
+  gap: 70px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  padding: 7px 80px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: var(--dl-color-default-primarycolor);
+}
+.homepage-sportifylogo1 {
+  width: 176px;
+  height: 36px;
+}
+.homepage-group1 {
+  position: relative;
+  width: 573px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden; /* Ensure content stays within the element */
+}
+
+.homepage-text86 {
+  top: 8px;
+  left: 22px;
+  color: var(--dl-color-default-graydark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.homepage-buttons {
+  gap: 10px;
+  top: 4px;
+  left: 456.5px;
+  display: flex;
+  padding: 8px 32px 8px 16px;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15000000596046448);
+  align-items: flex-start;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.homepage-buttons:hover {
+  /* Specify the new style properties for hover state */
+  /* For example, change the background color */
+  background-color: #fc5574;
+}
+
+.homepage-searchfill {
+  width: 16px;
+  height: 16px;
+}
+.homepage-text88 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-frame7 {
+  width: 392px;
+  height: 84px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.homepage-frame32 {
+  gap: 10px;
+  display: flex;
+  padding: 26px 20px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.homepage-text90 {
+  color: var(--dl-color-default-pink);
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+  transition: color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-text90:hover {
+  color: #fc5574; /* Change the text color on hover */
+  /* Add additional styles for hover state if needed */
+}
+
+.homepage-frame33 {
+  gap: 10px;
+  display: flex;
+  padding: 26px 20px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.homepage-text92 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+  transition: color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-text92:hover {
+  color: #fc5574; /* Change the text color on hover */
+  /* Add additional styles for hover state if needed */
+}
+
+.homepage-frame51 {
+  gap: 10px;
+  display: flex;
+  padding: 26px 0 26px 20px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.homepage-text94 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+  transition: color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.homepage-text94:hover {
+  color: #fc5574; /* Change the text color on hover */
+  /* Add additional styles for hover state if needed */
+}
+
