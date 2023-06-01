@@ -1,0 +1,101 @@
+.homepage-footer {
+    gap: 477px;
+    top: var(--footer-top);
+    left: 0px;
+    width: 100%;
+    display: flex;
+    padding: 22px 80px;
+    overflow: hidden;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  
+  .homepage-text49 {
+    color: rgba(242, 242, 242, 1);
+    height: auto;
+    text-align: left;
+    line-height: 32px;
+  }
+  
+  .homepage-frame9 {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .homepage-frame3 {
+    gap: 10px;
+    display: flex;
+    padding: 26px 20px;
+    overflow: hidden;
+    align-items: flex-start;
+  }
+  
+  .homepage-text51 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    text-align: left;
+    line-height: 32px;
+    transition: color 0.3s; /* Add a transition for a smooth effect */
+  }
+  
+  .homepage-text51:hover {
+    color: #fc5574; /* Change the text color on hover */
+    /* Add additional styles for hover state if needed */
+  }
+  
+  .homepage-frame31 {
+    gap: 10px;
+    display: flex;
+    padding: 26px 20px;
+    overflow: hidden;
+    align-items: flex-start;
+  }
+  
+  .homepage-text53 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    text-align: left;
+    line-height: 32px;
+    transition: color 0.3s; /* Add a transition for a smooth effect */
+  }
+  
+  .homepage-text53:hover {
+    color: #fc5574; /* Change the text color on hover */
+    /* Add additional styles for hover state if needed */
+  }
+  
+  .homepage-frame5 {
+    gap: 10px;
+    display: flex;
+    padding: 26px 0 26px 20px;
+    overflow: hidden;
+    align-items: flex-start;
+  }
+  
+  .homepage-text55 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    text-align: left;
+    line-height: 32px;
+    transition: color 0.3s; /* Add a transition for a smooth effect */
+  }
+  
+  
+  .homepage-frame6 {
+    gap: 10px;
+    display: flex;
+    padding: 26px 0 26px 20px;
+    overflow: hidden;
+    align-items: flex-start;
+  }
+
+  .homepage-text57 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    text-align: left;
+    line-height: 32px;
+    transition: color 0.3s; /* Add a transition for a smooth effect */
+  }

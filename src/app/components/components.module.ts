@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 const routes = [
   // Define your routes here
@@ -28,11 +29,12 @@ const routes = [
 ];
 
 @NgModule({
-  declarations: [NavbarComponent],
+  declarations: [NavbarComponent, FooterComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(routes) // Add RouterModule.forChild with the routes
   ],
-  exports: [NavbarComponent],
+  exports: [NavbarComponent, FooterComponent], // Include FooterComponent in exports
 })
 export class ComponentsModule {}
+
