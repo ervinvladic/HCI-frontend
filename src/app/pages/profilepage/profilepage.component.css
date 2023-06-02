@@ -19,34 +19,7 @@
   flex-shrink: 0;
   background-color: rgba(255, 255, 255, 1);
 }
-.profilepage-navbar {
-  gap: 10px;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 98px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-}
-.profilepage-frame2 {
-  gap: 70px;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  display: flex;
-  padding: 7px 80px;
-  position: absolute;
-  align-items: center;
-  flex-shrink: 0;
-  justify-content: space-between;
-  background-color: var(--dl-color-default-primarycolor);
-}
 
-.profilepage-sportifylogo1 {
-  width: 176px;
-  height: 36px;
-}
 .profilepage-group1 {
   width: 573px;
   height: 40px;
@@ -55,110 +28,6 @@
   align-items: flex-start;
   flex-shrink: 1;
   background-color: #fc5574;
-}
-.profilepage-text {
-  top: 8px;
-  left: 22px;
-  color: var(--dl-color-default-graydark);
-  height: auto;
-  position: absolute;
-  text-align: left;
-  line-height: 24px;
-}
-.profilepage-buttons {
-  gap: 10px;
-  top: 4px;
-  left: 456.5px;
-  display: flex;
-  padding: 8px 32px 8px 16px;
-  overflow: hidden;
-  position: absolute;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15000000596046448);
-  align-items: flex-start;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 1);
-}
-
-.profilepage-buttons:hover {
-  background-color: #fc5574;
-  
-}
-
-.profilepage-searchfill {
-  width: 16px;
-  height: 16px;
-}
-.profilepage-text02 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  font-size: 12px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Nunito Sans;
-  font-weight: 400;
-  line-height: 16px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.profilepage-frame7 {
-  width: 392px;
-  height: 84px;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.profilepage-frame3 {
-  gap: 10px;
-  display: flex;
-  padding: 26px 20px;
-  overflow: hidden;
-  align-items: flex-start;
-}
-.profilepage-text04 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  text-align: left;
-  line-height: 32px;
-}
-
-.profilepage-text04:hover {
-  color:#fc5574;
-}
-
-.profilepage-frame31 {
-  gap: 10px;
-  display: flex;
-  padding: 26px 20px;
-  overflow: hidden;
-  align-items: flex-start;
-}
-.profilepage-text06 {
-  color: var(--dl-color-default-pink);
-  height: auto;
-  text-align: left;
-  line-height: 32px;
-}
-
-.profilepage-text06:hover {
-  color:#fc5574;
-}
-
-.profilepage-frame5 {
-  gap: 10px;
-  display: flex;
-  padding: 26px 0 26px 20px;
-  overflow: hidden;
-  align-items: flex-start;
-}
-.profilepage-text08 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  text-align: left;
-  line-height: 32px;
-}
-
-.profilepage-text08:hover {
-  color:#fc5574;
 }
 
 .profilepage-rectangle74 {
@@ -269,8 +138,6 @@
 }
 
 .profilepage-buttons1:hover {
-  /* Add your hover styles here */
-  /* For example: */
   background-color: #fc5574;
 }
 
@@ -414,101 +281,6 @@
   line-height: 40px;
   font-stretch: normal;
   text-decoration: none;
-}
-.profilepage-footer {
-  gap: 477px;
-  top: 1086px;
-  left: 0px;
-  width: 100%;
-  display: flex;
-  padding: 22px 80px;
-  overflow: hidden;
-  position: absolute;
-  align-items: center;
-  flex-shrink: 0;
-  justify-content: space-between;
-  background-color: rgba(0, 0, 0, 1);
-}
-.profilepage-text28 {
-  color: rgba(242, 242, 242, 1);
-  height: auto;
-  text-align: left;
-  line-height: 32px;
-}
-.profilepage-frame9 {
-  display: flex;
-  align-items: flex-start;
-}
-.profilepage-frame32 {
-  gap: 10px;
-  display: flex;
-  padding: 26px 20px;
-  overflow: hidden;
-  align-items: flex-start;
-}
-.profilepage-text30 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  text-align: left;
-  line-height: 32px;
-}
-
-.profilepage-text30:hover {
-  color:#fc5574;
-}
-
-.profilepage-frame33 {
-  gap: 10px;
-  display: flex;
-  padding: 26px 20px;
-  overflow: hidden;
-  align-items: flex-start;
-}
-.profilepage-text32 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  text-align: left;
-  line-height: 32px;
-}
-
-.profilepage-text32:hover {
-  color:#fc5574;
-}
-
-.profilepage-frame51 {
-  gap: 10px;
-  display: flex;
-  padding: 26px 0 26px 20px;
-  overflow: hidden;
-  align-items: flex-start;
-}
-.profilepage-text34 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  text-align: left;
-  line-height: 32px;
-}
-
-.profilepage-text34:hover {
-  color:#fc5574;
-}
-
-.profilepage-frame6 {
-  gap: 10px;
-  display: flex;
-  padding: 26px 0 26px 20px;
-  overflow: hidden;
-  align-items: flex-start;
-}
-.profilepage-text36 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  text-align: left;
-  line-height: 32px;
-}
-
-.profilepage-text36:hover {
-  color:#fc5574;
 }
 
 .profilepage-group8 {
@@ -773,7 +545,6 @@
 }
 
 .profilepage-cancelbutton:hover {
-  
   background-color: #fc5574;
 }
 
@@ -865,8 +636,6 @@
 }
 
 .profilepage-buttons2:hover {
-  /* Add your hover styles here */
-  /* For example: */
   background-color: #fc5574;
 }
 
@@ -923,34 +692,5 @@
   position: absolute;
 }
 
-.profilepage-group818 {
-  position: relative;
-  width: 573px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: rgba(255, 255, 255, 1);
-  overflow: hidden; /* Ensure content stays within the element */
-}
 
-.profilepage-text86 {
-  top: 8px;
-  left: 22px;
-  color: var(--dl-color-default-graydark);
-  height: auto;
-  position: absolute;
-  text-align: left;
-  line-height: 24px;
-}
 
-.profilepage-text100 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  font-size: 12px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Nunito Sans;
-  font-weight: 400;
-  line-height: 16px;
-  font-stretch: normal;
-  text-decoration: none;
-}
