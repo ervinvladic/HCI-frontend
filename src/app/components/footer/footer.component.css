@@ -80,7 +80,11 @@
     height: auto;
     text-align: left;
     line-height: 32px;
-    transition: color 0.3s; /* Add a transition for a smooth effect */
+    transition: color 0.3s; 
+  }
+
+  .footer-text55:hover {
+    color: #fc5574; 
   }
   
   
@@ -97,5 +101,9 @@
     height: auto;
     text-align: left;
     line-height: 32px;
-    transition: color 0.3s; /* Add a transition for a smooth effect */
+    transition: color 0.3s; 
+  }
+
+  .footer-text57:hover {
+    color: #fc5574; 
   }
