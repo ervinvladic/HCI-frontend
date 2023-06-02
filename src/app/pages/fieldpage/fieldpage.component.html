@@ -1,6 +1,5 @@
 <div class="fieldpage-container">
   <div class="fieldpage-fieldpage">
-    <app-navbar></app-navbar> 
     <div class="fieldpage-gallery">
       <button class="fieldpage-buttons1">
         <span class="fieldpage-text18"><span>Reserve</span></span>
@@ -56,9 +55,7 @@
         class="fieldpage-rectangle69"
       />
       <span class="fieldpage-text28">
-        <span>
-          FIS football field, Sarajevo
-        </span>
+        <span> FIS football field, Sarajevo </span>
       </span>
       <span class="fieldpage-text30">
         <span>
@@ -93,9 +90,21 @@
       <span class="fieldpage-text32"><span>Football</span></span>
     </div>
     <span class="fieldpage-text34"><span>Reviews</span></span>
-    <app-comment style="--comment-top: 1003px; --comment-left: 80px;"></app-comment>
-    <app-comment style="--comment-top: 1003px; --comment-left: 515px;"></app-comment>
-    <app-comment style="--comment-top: 1003px; --comment-left: 950px;"></app-comment>
-    <app-footer style="--footer-top: 1374px;"></app-footer>
+    <div class="comment-container">
+      <app-comment style="--comment-top: 1003px"></app-comment>
+      <app-comment style="--comment-top: 1003px"></app-comment>
+      <app-comment style="--comment-top: 1003px"></app-comment>
+    </div>
+    <app-footer style="--footer-top: 1374px"></app-footer>
+    <app-navbar
+      style="
+        --navbar-hometext-color: #ffff;
+        --navbar-hometext-font: normal;
+        --navbar-profiletext-color: #ffff;
+        --navbar-profiletext-font: normal;
+        --navbar-reservationstext-color: #ffff;
+        --navbar-reservationstext-font: normal;
+      "
+    ></app-navbar>
   </div>
 </div>

@@ -5,51 +5,47 @@
       src="/assets/playground_assets/rectangle601561-jh4b-500h.png"
       class="homepage-rectangle60"
     />
-    <a [routerLink]="'/footballfields'">
+    <div class="categories-container">
+      <a [routerLink]="'/footballfields'">
+        <app-sport-category
+          [alt]="'footballfillI124'"
+          [imageSrc]="'/assets/playground_assets/footballfilli124-lda.svg'"
+          [title]="'Football'"
+          [courtCount]="'10 fields'"
+        ></app-sport-category>
+      </a>
       <app-sport-category
-        [alt]="'footballfillI124'"
-        [imageSrc]="'/assets/playground_assets/footballfilli124-lda.svg'"
-        [title]="'Football'"
-        [courtCount]="'10 fields'"
-        style="--category-left: 79px;"
+        [alt]="'basketballfillI128'"
+        [imageSrc]="'/assets/playground_assets/basketballfilli128-zmkq.svg'"
+        [title]="'Basketball'"
+        [courtCount]="'8 fields'"
       ></app-sport-category>
-    </a>    
-   <app-sport-category
-      [alt]="'basketballfillI128'"
-      [imageSrc]="'/assets/playground_assets/basketballfilli128-zmkq.svg'"
-      [title]="'Basketball'"
-      [courtCount]="'8 fields'"
-      style="--category-left: 297px;"
-   ></app-sport-category>
 
-    <app-sport-category
-      [alt]="'pingpongfillI128'"
-      [imageSrc]="'/assets/playground_assets/pingpongfilli128-6604.svg'"
-      [title]="'Table tennis'"
-      [courtCount]="'5 places'"
-      style="--category-left: 513px;"
-></app-sport-category>
-    <app-sport-category
-      [alt]="'billiardsfillI128'"
-      [imageSrc]="'/assets/playground_assets/billiardsfilli128-7b7d.svg'"
-      [title]="'Billiards'"
-      [courtCount]="'6 places'"
-      style="--category-left: 731px;"
-></app-sport-category>
-<app-sport-category
-      [alt]="'runlineI128'"
-      [imageSrc]="'/assets/playground_assets/runlinei128-eyo.svg'"
-      [title]="'Gym'"
-      [courtCount]="'10 places'"
-      style="--category-left: 949px;"
-></app-sport-category>
-<app-sport-category
-      [alt]="'more2fillI128'"
-      [imageSrc]="'/assets/playground_assets/more2filli128-tbem.svg'"
-      [title]="'Other'"
-      [courtCount]="'20 places'"
-      style="--category-left: 1165px;"
-></app-sport-category>
+      <app-sport-category
+        [alt]="'pingpongfillI128'"
+        [imageSrc]="'/assets/playground_assets/pingpongfilli128-6604.svg'"
+        [title]="'Table tennis'"
+        [courtCount]="'5 places'"
+      ></app-sport-category>
+      <app-sport-category
+        [alt]="'billiardsfillI128'"
+        [imageSrc]="'/assets/playground_assets/billiardsfilli128-7b7d.svg'"
+        [title]="'Billiards'"
+        [courtCount]="'6 places'"
+      ></app-sport-category>
+      <app-sport-category
+        [alt]="'runlineI128'"
+        [imageSrc]="'/assets/playground_assets/runlinei128-eyo.svg'"
+        [title]="'Gym'"
+        [courtCount]="'10 places'"
+      ></app-sport-category>
+      <app-sport-category
+        [alt]="'more2fillI128'"
+        [imageSrc]="'/assets/playground_assets/more2filli128-tbem.svg'"
+        [title]="'Other'"
+        [courtCount]="'20 places'"
+      ></app-sport-category>
+    </div>
     <span class="homepage-text24"><span>Sports</span></span>
     <div class="homepage-frame8">
       <span class="homepage-text26"><span>Trending</span></span>
@@ -60,33 +56,50 @@
           [titlePrefix]="'FIS football field,'"
           [location]="'Sarajevo'"
           [price]="'60 BAM'"
-          [description]="'Best place for after work football with friends and colleagues'"
-          style="--fieldcard-top: 89px; --fieldcard-left: 80px; --fieldcard-width: 1279px;"
+          [description]="
+            'Best place for after work football with friends and colleagues'
+          "
+          style="--fieldcard-top: 89px"
         ></app-fieldcard>
-      </a>      
-<app-fieldcard
-[imageAlt]="'image1914'"
-[imageSrc]="'/assets/playground_assets/image1914-mcaf-200h.png'"
-[titlePrefix]="'Una tennis courts,'"
-[location]="'Sarajevo'"
-[price]="'35 BAM'"
-[description]="'Best place for after work tennis with friends and colleagues'"
-style="--fieldcard-top: 550px; --fieldcard-left: 80px;--fieldcard-width: 1279px;"
-></app-fieldcard>
-<app-fieldcard
-[imageAlt]="'image1914'"
-[imageSrc]="'/assets/playground_assets/image1914-qxrp-200h.png'"
-[titlePrefix]="'Basketball court Grbavica,'"
-[location]="'Sarajevo'"
-[price]="'55 BAM'"
-[description]="'Best place for after work basketball game with friends and colleagues'"
-style="--fieldcard-top: 1009px; --fieldcard-left: 80px;--fieldcard-width: 1279px;"
-></app-fieldcard>
+      </a>
+      <app-fieldcard
+        [imageAlt]="'image1914'"
+        [imageSrc]="'/assets/playground_assets/image1914-mcaf-200h.png'"
+        [titlePrefix]="'Una tennis courts,'"
+        [location]="'Sarajevo'"
+        [price]="'35 BAM'"
+        [description]="
+          'Best place for after work tennis with friends and colleagues'
+        "
+        style="--fieldcard-top: 550px"
+      ></app-fieldcard>
+      <app-fieldcard
+        [imageAlt]="'image1914'"
+        [imageSrc]="'/assets/playground_assets/image1914-qxrp-200h.png'"
+        [titlePrefix]="'Basketball court Grbavica,'"
+        [location]="'Sarajevo'"
+        [price]="'55 BAM'"
+        [description]="
+          'Best place for after work basketball game with friends and colleagues'
+        "
+        style="--fieldcard-top: 1009px"
+      ></app-fieldcard>
     </div>
-    <app-footer style="--footer-top: 2301px;"></app-footer>
-    <app-comment style="--comment-top: 2035px; --comment-left: 80px;"></app-comment>
-    <app-comment style="--comment-top: 2035px; --comment-left: 515.6666259765625px;"></app-comment>
-    <app-comment style="--comment-top: 2035px; --comment-left: 951.333251953125px;"></app-comment>
-    <app-navbar></app-navbar>
+    <app-footer style="--footer-top: 2301px"></app-footer>
+    <div class="comment-container">
+      <app-comment style="--comment-top: 2035px"></app-comment>
+      <app-comment style="--comment-top: 2035px"></app-comment>
+      <app-comment style="--comment-top: 2035px"></app-comment>
+    </div>
+    <app-navbar
+      style="
+        --navbar-hometext-color: #fc5574;
+        --navbar-hometext-font: normal;
+        --navbar-profiletext-color: #ffff;
+        --navbar-profiletext-font: normal;
+        --navbar-reservationstext-color: #ffff;
+        --navbar-reservationstext-font: normal;
+      "
+    ></app-navbar>
   </div>
 </div>

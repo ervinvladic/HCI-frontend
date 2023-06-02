@@ -1,11 +1,10 @@
 .comment-usercomments {
     gap: 16px;
     top: var(--comment-top);
-    left: var(--comment-left);
     width: 411px;
     display: flex;
     padding: 16px;
-    position: absolute;
+    position: relative;
     flex-grow: 1;
     align-items: flex-start;
   }

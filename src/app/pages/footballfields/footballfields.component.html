@@ -1,7 +1,17 @@
 <div class="footballfields-container">
   <div class="footballfields-footballfields">
     <app-footer style="--footer-top: 2033px"></app-footer>
-    <app-navbar></app-navbar>
+    <app-navbar
+      style="
+        --navbar-hometext-color: #ffff;
+        --navbar-hometext-font: normal;
+        --navbar-profiletext-color: #ffff;
+        --navbar-profiletext-font: normal;
+        --navbar-reservationstext-color: #ffff;
+        --navbar-reservationstext-font: normal;
+      "
+    ></app-navbar>
+
     <div class="footballfields-fields">
       <a [routerLink]="'/fieldpage'">
         <app-fieldcard
@@ -13,11 +23,7 @@
           [description]="
             'Best place for after work football with friends and colleagues'
           "
-          style="
-            --fieldcard-top: 0px;
-            --fieldcard-left: 0px;
-            --fieldcard-width: 1063px;
-          "
+          style="--fieldcard-top: 0px"
         ></app-fieldcard>
       </a>
       <app-fieldcard
@@ -31,11 +37,7 @@
         [description]="
           'Best place for after work football with friends and colleagues'
         "
-        style="
-          --fieldcard-top: 380px;
-          --fieldcard-left: 2.2737367544323206e-13px;
-          --fieldcard-width: 1063px;
-        "
+        style="--fieldcard-top: 380px"
       ></app-fieldcard>
       <app-fieldcard
         [imageAlt]="'image2423'"
@@ -48,11 +50,33 @@
         [description]="
           'Best place for after work football with friends and colleagues'
         "
-        style="
-          --fieldcard-top: 715px;
-          --fieldcard-left: 2.2737367544323206e-13px;
-          --fieldcard-width: 1063px;
+        style="--fieldcard-top: 715px"
+      ></app-fieldcard>
+      <app-fieldcard
+        [imageAlt]="'image2423'"
+        [imageSrc]="
+          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3a6242a6-6dbb-40a3-b5a1-5e88d5e2780b/efd8f09f-c847-49f2-a297-49451d76c94a?org_if_sml=1415617'
         "
+        [titlePrefix]="'Bentbaša,'"
+        [location]="'Sarajevo'"
+        [price]="'35 BAM'"
+        [description]="
+          'Best place for after work football with friends and colleagues'
+        "
+        style="--fieldcard-top: 1050px"
+      ></app-fieldcard>
+      <app-fieldcard
+        [imageAlt]="'image2423'"
+        [imageSrc]="
+          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3a6242a6-6dbb-40a3-b5a1-5e88d5e2780b/97709ac5-7368-4a80-8143-9039e14a4b52?org_if_sml=1571423'
+        "
+        [titlePrefix]="'RSC football field,'"
+        [location]="'Sarajevo'"
+        [price]="'55 BAM'"
+        [description]="
+          'Best place for after work football with friends and colleagues'
+        "
+        style="--fieldcard-top: 1400px"
       ></app-fieldcard>
     </div>
     <img
@@ -147,42 +171,6 @@
         </div>
       </div>
       <span class="footballfields-text55"><span>Price range</span></span>
-    </div>
-    <div class="footballfields-fields1">
-      <app-fieldcard
-        [imageAlt]="'image2423'"
-        [imageSrc]="
-          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3a6242a6-6dbb-40a3-b5a1-5e88d5e2780b/efd8f09f-c847-49f2-a297-49451d76c94a?org_if_sml=1415617'
-        "
-        [titlePrefix]="'Bentbaša,'"
-        [location]="'Sarajevo'"
-        [price]="'35 BAM'"
-        [description]="
-          'Best place for after work football with friends and colleagues'
-        "
-        style="
-          --fieldcard-top: 15px;
-          --fieldcard-left: 0px;
-          --fieldcard-width: 1063px;
-        "
-      ></app-fieldcard>
-      <app-fieldcard
-        [imageAlt]="'image2423'"
-        [imageSrc]="
-          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3a6242a6-6dbb-40a3-b5a1-5e88d5e2780b/97709ac5-7368-4a80-8143-9039e14a4b52?org_if_sml=1571423'
-        "
-        [titlePrefix]="'RSC football field,'"
-        [location]="'Sarajevo'"
-        [price]="'55 BAM'"
-        [description]="
-          'Best place for after work football with friends and colleagues'
-        "
-        style="
-          --fieldcard-top: 350px;
-          --fieldcard-left: 0px;
-          --fieldcard-width: 1063px;
-        "
-      ></app-fieldcard>
     </div>
     <div class="footballfields-group11">
       <span class="footballfields-text71"><span>Page 1</span></span>

@@ -1423,4 +1423,18 @@
   color: #fc5574; /* Change the text color on hover */
   /* Add additional styles for hover state if needed */
 }
+.categories-container{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left:80px;
+  right:80px;
+}
+.comment-container{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left:80px;
+  right:80px;
+}
 

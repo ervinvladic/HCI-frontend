@@ -1,12 +1,11 @@
 .sportcategory-sportcategories1 {
     gap: 25px;
     top: 202px;
-    left: var(--category-left); 
     width: 196px;
     display: flex;
     padding: 24px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     align-items: flex-start;
     flex-shrink: 0;
     border-radius: 20px;

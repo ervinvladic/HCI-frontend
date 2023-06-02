@@ -1,7 +1,7 @@
 .homepage-cardfullcard1 {
     top: var(--fieldcard-top);
-    left: var(--fieldcard-left);
-    width: var(--fieldcard-width);
+    left: 80px;
+    right: 80px;
     display: flex;
     overflow: hidden;
     position: absolute;
