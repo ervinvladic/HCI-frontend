@@ -19,15 +19,7 @@
   flex-shrink: 0;
   background-color: rgba(255, 255, 255, 1);
 }
-.footballfields-group1 {
-  width: 573px;
-  height: 40px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: #fc5574;
-}
+
 .footballfields-fields {
   top: 253px;
   left: 297px;
@@ -240,16 +232,6 @@
   position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
-}
-.footballfields-group1 {
-  top: 0px;
-  left: 0px;
-  width: 13.424415588378906px;
-  height: 20.233766555786133px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
 }
 .footballfields-vector1 {
   top: 8.430736541748047px;

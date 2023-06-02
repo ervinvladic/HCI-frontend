@@ -19,16 +19,6 @@
   flex-shrink: 0;
   background-color: rgba(255, 255, 255, 1);
 }
-.fieldpage-group1 {
-  width: 573px;
-  height: 40px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: #fc5574;
-}
-
 .fieldpage-gallery {
   top: 98px;
   left: 0px;
