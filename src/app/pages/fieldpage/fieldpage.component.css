@@ -32,12 +32,10 @@
 }
 .fieldpage-buttons1 {
   gap: 10px;
-  top: 567px;
-  right: 80px;
   display: flex;
   padding: 8px 32px;
   overflow: hidden;
-  position: absolute;
+  position: relative;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15000000596046448);
   align-items: flex-start;
   border-radius: 20px;
@@ -60,18 +58,11 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.fieldpage-rectangle58 {
-  top: 252px;
-  right: 80px;
-  width: 650px;
-  height: 128px;
-  position: absolute;
-  border-radius: 20px;
-}
 .fieldpage-group8 {
-  top: 323px;
-  right: 100px;
-  width: 239px;
+  top: 70px;
+  left: 490;
+  right: 20px;
+  width: 240px;
   height: 34.566017150878906px;
   display: flex;
   position: absolute;
@@ -81,7 +72,7 @@
 .fieldpage-rectangle50 {
   top: 0px;
   left: 0px;
-  width: 239px;
+  width: 240px;
   height: 34px;
   position: absolute;
   border-radius: 20px;
@@ -104,7 +95,7 @@
 }
 .fieldpage-group6 {
   top: 0.8430595993995667px;
-  left: 199px;
+  right: 0px;
   width: 40px;
   height: 33.72294616699219px;
   display: flex;
@@ -144,9 +135,9 @@
   position: absolute;
 }
 .fieldpage-group7 {
-  top: 276px;
-  right: 100px;
-  width: 239px;
+  top: 24px;
+  right: 20px;
+  width: 240px;
   height: 34.566017150878906px;
   display: flex;
   position: absolute;
@@ -156,7 +147,7 @@
 .fieldpage-rectangle501 {
   top: 0px;
   left: 0px;
-  width: 239px;
+  width: 240px;
   height: 34px;
   position: absolute;
   border-radius: 20px;
@@ -179,7 +170,7 @@
 }
 .fieldpage-group61 {
   top: 0.8430595993995667px;
-  left: 199px;
+  right: 0px;
   width: 40px;
   height: 33.72294616699219px;
   display: flex;
@@ -218,8 +209,8 @@
   position: absolute;
 }
 .fieldpage-text24 {
-  top: 283px;
-  left: 813px;
+  top: 24px;
+  left: 32px;
   color: var(--dl-color-default-pink);
   width: 186px;
   height: auto;
@@ -234,8 +225,8 @@
   text-decoration: none;
 }
 .fieldpage-text26 {
-  top: 323px;
-  left: 813px;
+  top: 64px;
+  left: 32px;
   color: var(--dl-color-default-graydark);
   width: 186px;
   height: auto;
@@ -258,8 +249,6 @@
   border-radius: 20px;
 }
 .fieldpage-text28 {
-  top: 176px;
-  left: 850px;
   color: var(--dl-color-default-primarycolor);
   width: 536px;
   height: auto;
@@ -274,12 +263,10 @@
   text-decoration: none;
 }
 .fieldpage-text30 {
-  top: 436px;
-  left: 850px;
   color: var(--dl-color-default-primarycolor);
   width: 517px;
   height: auto;
-  position: absolute;
+  position: relative;
   font-size: 16px;
   font-style: Light;
   text-align: center;
@@ -340,12 +327,10 @@
   border-radius: 20px;
 }
 .fieldpage-text32 {
-  top: 112px;
-  left: 1033px;
   color: var(--dl-color-default-primarycolor);
   width: 197px;
   height: auto;
-  position: absolute;
+  position: relative;
   font-size: 36px;
   font-style: Regular;
   text-align: center;
@@ -377,4 +362,55 @@
   position: absolute;
   left: 80px;
   right: 80px;
+}
+.description {
+  top: 404px;
+  right: 80px;
+  left: 730px;
+  display: flex;
+  height: 128px;
+  position: absolute;
+  border-radius: 20px;
+  padding: 10px 53px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: #ffff;
+}
+.date-time {
+  top: 252px;
+  right: 80px;
+  left: 730px;
+  display: flex;
+  height: 128px;
+  position: absolute;
+  border-radius: 20px;
+  padding: 10px 53px;
+  flex-shrink: 0;
+  background-color: #ffff;
+}
+.title {
+  top: 112px;
+  right: 80px;
+  left: 730px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+.subtitle {
+  top: 176px;
+  right: 80px;
+  left: 730px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+.button-center{
+  position: absolute;
+  justify-content: center;
+  right: 80px;
+  left: 730px;
+  top: 570px;
+  display: flex;
+
 }

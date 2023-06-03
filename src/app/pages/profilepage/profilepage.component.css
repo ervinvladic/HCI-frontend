@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .profilepage-container {
   width: 100%;
@@ -89,17 +89,6 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.profilepage-rectangle75 {
-  top: 513px;
-  left: 568px;
-  width: 791px;
-  height: 197px;
-  position: absolute;
-  border-color: rgba(168, 168, 168, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 20px;
-}
 .profilepage-text14 {
   top: 482.56591796875px;
   left: 579px;
@@ -159,6 +148,7 @@
   width: 318px;
   height: 330px;
   display: flex;
+  flex-direction: column;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
@@ -284,21 +274,20 @@
 }
 
 .profilepage-group8 {
-  top: 282px;
-  left: 568px;
   width: 318px;
   height: 34.56596374511719px;
   display: flex;
-  position: absolute;
+  position: relative;
   align-items: flex-start;
-  flex-shrink: 1;
 }
 .profilepage-rectangle50 {
   top: 0px;
   left: 0px;
-  width: 318px;
+  right: 0px;
+  width: 100%;
+  display: flex;
   height: 34px;
-  position: absolute;
+  position: relative;
   border-radius: 20px;
 }
 .profilepage-text38 {
@@ -319,7 +308,7 @@
 }
 .profilepage-group6 {
   top: 0.843017578125px;
-  left: 264.7782287597656px;
+  right: 0px;
   width: 53.22175598144531px;
   height: 33.72294616699219px;
   display: flex;
@@ -360,9 +349,8 @@
 }
 .profilepage-frame14 {
   gap: 10px;
-  top: 752px;
-  left: 568px;
-  width: 792px;
+  left: 0px;
+  right: 0px;
   display: flex;
   padding: 10px 53px;
   position: absolute;
@@ -385,19 +373,18 @@
   text-decoration: none;
 }
 .profilepage-group15 {
-  top: 284px;
-  left: 1042px;
   width: 318px;
   height: 34.56596374511719px;
   display: flex;
-  position: absolute;
+  position: relative;
   align-items: flex-start;
-  flex-shrink: 1;
 }
 .profilepage-rectangle501 {
   top: 0px;
   left: 0px;
-  width: 318px;
+  right: 0px;
+  display: flex;
+  width: 100%;
   height: 34px;
   position: absolute;
   border-radius: 20px;
@@ -420,7 +407,7 @@
 }
 .profilepage-group61 {
   top: 0.843017578125px;
-  left: 264.7782287597656px;
+  right: 0px;
   width: 53.22175598144531px;
   height: 33.72294616699219px;
   display: flex;
@@ -485,15 +472,11 @@
   text-decoration: none;
 }
 .profilepage-prefsport {
-  top: 828px;
-  left: 568px;
   width: 376px;
   display: flex;
   overflow: hidden;
-  position: absolute;
-  flex-grow: 1;
-  align-self: stretch;
-  box-shadow: 0px 2px 4px 0px rgba(27, 4, 76, 0.10000000149011612) ;
+  position: relative;
+  box-shadow: 0px 2px 4px 0px rgba(27, 4, 76, 0.10000000149011612);
   align-items: flex-start;
   border-radius: 20px;
   flex-direction: column;
@@ -529,39 +512,17 @@
   text-align: left;
   line-height: normal;
 }
-.profilepage-cancelbutton {
-  gap: 10px;
-  width: 18px;
-  height: 18px;
-  display: flex;
-  padding: 8px;
-  overflow: hidden;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 20px;
-  justify-content: center;
-  background-color: var(--dl-color-default-categorycolor);
-}
-
-.profilepage-cancelbutton:hover {
-  background-color: #fc5574;
-}
 
 .profilepage-frame {
   width: 16px;
   height: 16px;
 }
 .profilepage-prefsport1 {
-  top: 828px;
-  left: 984px;
   width: 376px;
   display: flex;
   overflow: hidden;
-  position: absolute;
-  flex-grow: 1;
-  align-self: stretch;
-  box-shadow: 0px 2px 4px 0px rgba(27, 4, 76, 0.10000000149011612) ;
+  position: relative;
+  box-shadow: 0px 2px 4px 0px rgba(27, 4, 76, 0.10000000149011612);
   align-items: flex-start;
   border-radius: 20px;
   flex-direction: column;
@@ -596,24 +557,6 @@
   flex-grow: 1;
   text-align: left;
   line-height: normal;
-}
-.profilepage-cancelbutton1 {
-  gap: 10px;
-  width: 18px;
-  height: 18px;
-  display: flex;
-  padding: 8px;
-  overflow: hidden;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 20px;
-  justify-content: center;
-  background-color: var(--dl-color-default-categorycolor);
-}
-
-.profilepage-cancelbutton1:hover {
-  background-color: #fc5574;
 }
 
 .profilepage-frame1 {
@@ -651,46 +594,96 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.profilepage-group62 {
-  top: 752px;
-  left: 1307px;
-  width: 53.22175598144531px;
-  height: 36px;
+
+.profilepage-input-container {
+  left: 0px;
+  right: 0px;
   display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(252, 85, 116, 1);
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  position: relative;
+  border-color: #ffff;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 20px;
 }
-.profilepage-riarrowdownsfill2 {
-  top: 7.200042247772217px;
-  left: 15.96630859375px;
-  width: 21.868194580078125px;
-  height: 21.599998474121094px;
+
+.input-label {
+  left: 12px;
+  margin-bottom: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-style: normal;
+  text-align: left;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.profilepage-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #a9a9a9;
+  border-radius: 20px;
+}
+
+.input-container-right {
   display: flex;
-  overflow: hidden;
+  width: 318px;
+  height: 40px;
+  position: relative;
+  border-color: #ffff;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+.city-country {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 568px;
+  right: 80px;
+  top: 378px;
+}
+.sports-container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 568px;
+  right: 80px;
+  top: 828px;
+}
+.birthdate-gender {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 568px;
+  right: 80px;
+  top: 282px;
+}
+
+.profilepage-prefferedsports {
+  right: 80px;
+  top: 752px;
+  left: 568px;
+  height: 34px;
+  display: flex;
   position: absolute;
   align-items: flex-start;
-  flex-shrink: 0;
 }
-.profilepage-group2 {
-  top: 0px;
-  left: 0px;
-  width: 21.868194580078125px;
-  height: 21.599998474121094px;
+.profilepage-input-large {
   display: flex;
+  top: 513px;
+  left: 568px;
+  right: 80px;
+  height: 197px;
   position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
+  border-color: #ffff;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
 }
-.profilepage-vector2 {
-  top: 9px;
-  left: 5.467048645019531px;
-  width: 11px;
-  height: 5px;
-  position: absolute;
-}
-
-
-

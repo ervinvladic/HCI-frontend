@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .reservationspage-container {
   width: 100%;
@@ -74,7 +74,7 @@
 }
 .reservationspage-data {
   gap: 4px;
-  width: 1086px;
+  width: 90%;
   display: flex;
   padding: 8px 16px;
   flex-grow: 1;
@@ -103,13 +103,6 @@
   text-align: left;
   line-height: normal;
 }
-.reservationspage-text04 {
-  color: var(--dl-color-grey-900);
-  height: auto;
-  flex-grow: 1;
-  text-align: right;
-  line-height: normal;
-}
 .reservationspage-text06 {
   color: var(--dl-color-grey-900);
   height: auto;
@@ -134,7 +127,7 @@
 .reservationspage-text10 {
   color: var(--dl-color-grey-400);
   height: auto;
-  opacity: 0.00;
+  opacity: 0;
   flex-grow: 1;
   text-align: left;
   line-height: normal;
@@ -157,10 +150,11 @@
   gap: 10px;
   width: 26px;
   height: 26px;
+  right: 10px;
   display: flex;
   padding: 8px;
   overflow: hidden;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15000000596046448) ;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15000000596046448);
   align-items: center;
   flex-shrink: 0;
   border-radius: 20px;
@@ -213,7 +207,7 @@
 }
 .reservationspage-data1 {
   gap: 4px;
-  width: 1086px;
+  width: 90%;
   display: flex;
   padding: 8px 16px;
   flex-grow: 1;
@@ -273,7 +267,7 @@
 .reservationspage-text26 {
   color: var(--dl-color-grey-400);
   height: auto;
-  opacity: 0.00;
+  opacity: 0;
   flex-grow: 1;
   text-align: left;
   line-height: normal;
@@ -296,10 +290,11 @@
   gap: 10px;
   width: 26px;
   height: 26px;
+  right: 10px;
   display: flex;
   padding: 8px;
   overflow: hidden;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15000000596046448) ;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15000000596046448);
   align-items: center;
   flex-shrink: 0;
   border-radius: 20px;
@@ -352,7 +347,7 @@
 }
 .reservationspage-data2 {
   gap: 4px;
-  width: 1086px;
+  width: 90%;
   display: flex;
   padding: 8px 16px;
   flex-grow: 1;
@@ -381,13 +376,6 @@
   text-align: left;
   line-height: normal;
 }
-.reservationspage-text36 {
-  color: var(--dl-color-grey-900);
-  height: auto;
-  flex-grow: 1;
-  text-align: right;
-  line-height: normal;
-}
 .reservationspage-text38 {
   color: var(--dl-color-grey-900);
   height: auto;
@@ -412,7 +400,7 @@
 .reservationspage-text42 {
   color: var(--dl-color-grey-400);
   height: auto;
-  opacity: 0.00;
+  opacity: 0;
   flex-grow: 1;
   text-align: left;
   line-height: normal;
@@ -435,10 +423,11 @@
   gap: 10px;
   width: 26px;
   height: 26px;
+  right: 10px;
   display: flex;
   padding: 8px;
   overflow: hidden;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15000000596046448) ;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15000000596046448);
   align-items: center;
   flex-shrink: 0;
   border-radius: 20px;
@@ -488,7 +477,7 @@
 }
 .reservationspage-data3 {
   gap: 4px;
-  width: 1086px;
+  width: 90%;
   display: flex;
   padding: 8px 16px;
   flex-grow: 1;
@@ -517,13 +506,6 @@
   text-align: left;
   line-height: normal;
 }
-.reservationspage-text52 {
-  color: var(--dl-color-grey-900);
-  height: auto;
-  flex-grow: 1;
-  text-align: right;
-  line-height: normal;
-}
 .reservationspage-text54 {
   color: var(--dl-color-grey-900);
   height: auto;
@@ -548,7 +530,7 @@
 .reservationspage-text58 {
   color: var(--dl-color-grey-400);
   height: auto;
-  opacity: 0.00;
+  opacity: 0;
   flex-grow: 1;
   text-align: left;
   line-height: normal;
@@ -571,6 +553,7 @@
   gap: 10px;
   width: 26px;
   height: 26px;
+  right: 10px;
   display: flex;
   padding: 8px;
   overflow: hidden;
