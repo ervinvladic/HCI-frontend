@@ -1,6 +1,6 @@
 .footer-footer {
     gap: 477px;
-    top: var(--footer-top);
+    bottom:0px;
     left: 0px;
     width: 100%;
     display: flex;
